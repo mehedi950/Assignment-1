@@ -16,11 +16,35 @@ body {
   width: 1320px;
   margin: 0 auto;
 }
+.button_primary {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button_secondary {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
 
 /* banner related style */
 .banner_text {
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)),
     url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 177px 344px;
   border-radius: 16px;
 }
@@ -70,6 +94,47 @@ body {
 }
 .banner_img > img {
   width: 100%;
+}
+
+/* party related styles */
+
+.party_wrapper {
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0),
+      rgba(0, 0, 0, 0.034)
+    ),
+    url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+  padding-left: 126px;
+  border-radius: 16px;
+}
+.party_wrapper h2 {
+  max-width: 642px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.party_wrapper h3 {
+  max-width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 24px;
+}
+.party_wrapper > button {
+  margin-top: 48px;
+}
+.party_wrapper > button:hover {
+  background-color: #f00;
+  transition: all linear 0.2s;
 }
 
 /* font family */
