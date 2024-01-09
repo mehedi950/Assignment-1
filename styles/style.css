@@ -9,6 +9,9 @@ font-family: 'Merriweather', serif;
   padding: 0;
   box-sizing: border-box;
 }
+ul li {
+  list-style: none;
+}
 body {
   font-family: "Merriweather", serif;
 }
@@ -268,6 +271,60 @@ body {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+/* footer related styles */
+footer {
+  background-color: #070211;
+  color: white;
+  padding: 120px 0;
+}
+.footer_text {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: space-between;
+}
+.footer_location {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 375px;
+}
+.footer_contact > li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 2px 0;
+}
+.footer_contact p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer_icon {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer_icon img {
+  padding: 0 12px;
+}
+.footer_copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.footer_copyright span {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 /* font family */
