@@ -26,6 +26,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  text-transform: capitalize;
 }
 .button_secondary {
   padding: 16px 32px;
@@ -37,6 +38,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 /* banner related style */
@@ -101,7 +103,7 @@ body {
 .party_wrapper {
   background-image: linear-gradient(
       to right,
-      rgb(0, 0, 0),
+      rgba(0, 0, 0, 0.959),
       rgba(0, 0, 0, 0.034)
     ),
     url(../images/Vectorrr.png);
@@ -135,6 +137,30 @@ body {
 .party_wrapper > button:hover {
   background-color: #f00;
   transition: all linear 0.2s;
+}
+
+/* join related styles */
+.join {
+  padding: 120px 0;
+}
+.join_wrapper {
+  padding: 100px 0;
+  background-color: #ffebeb;
+  text-align: center;
+}
+.join_wrapper > p {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.join_wrapper > p > span {
+  color: #f00;
+}
+.join_wrapper > button {
+  margin-top: 48px;
 }
 
 /* font family */
