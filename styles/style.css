@@ -1,6 +1,9 @@
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
+/* .....
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; 
+....*/
 
+/* common styles */
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +16,13 @@ body {
   width: 1320px;
   margin: 0 auto;
 }
-.banner {
-}
+
+/* banner related style */
 .banner_text {
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)),
     url(../images/Banner\ Image.png);
   padding: 177px 344px;
+  border-radius: 16px;
 }
 .banner_text > h4 {
   color: #fff;
@@ -32,3 +36,44 @@ body {
   font-size: 72px;
   font-weight: 900;
 }
+
+/* category related style */
+.category {
+  padding: 120px 0;
+}
+.category h5 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.category h4 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 48px;
+  text-transform: uppercase;
+}
+.category h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.banner_img {
+  max-width: 803px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+.banner_img > img {
+  width: 100%;
+}
+
+/* font family */
+/* .....
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; 
+....*/
